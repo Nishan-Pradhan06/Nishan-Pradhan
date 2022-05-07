@@ -148,3 +148,8 @@ nav .navbar .menu li{
         font-size: 30px;
     }
 }
+h1{
+ display:flex;
+align-item: center;
+justify-content: center;
+}
