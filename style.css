@@ -8,6 +8,7 @@
   scroll-behavior: smooth;
 }
 
+
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
     width: 10px;
@@ -24,6 +25,9 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #4070f4;
 }
+
+
+
 /* navbar styling */
 nav{
   position: fixed;
@@ -85,6 +89,8 @@ nav.sticky .media-icons a{
   color: #FFF;
 }
 
+
+
 /* Side Navigation Menu Button CSS */
 nav .menu-btn,
 .navbar .menu .cancel-btn{
@@ -107,6 +113,9 @@ nav.sticky .menu-btn{
 .navbar .menu .menu-btn{
   color: #fff;
 }
+
+
+
 
 /* home section styling */
 .home{
@@ -154,7 +163,6 @@ nav.sticky .menu-btn{
   }
 }
 
-
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
@@ -186,6 +194,8 @@ nav.sticky .menu-btn{
   background-color: #fff;
   color: #4070f4;
 }
+
+
 
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
@@ -273,6 +283,8 @@ section .button button:hover{
   background-color: #fff;
   color: #4070f4;
 }
+
+
  /* My Skills CSS */
 /* .skills{
    background: #F0F8FF;
@@ -327,6 +339,8 @@ section .button button:hover{
   color: #4070f4;
 }
 */
+
+
 /* My Services CSS */
 /*.services .boxes{
   display: flex;
@@ -372,6 +386,8 @@ section .button button:hover{
 .services .boxes .box:hover p{
   color: #fff;
 }*/
+
+
 
 
 /* Footer CSS */
