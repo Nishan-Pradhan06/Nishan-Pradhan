@@ -139,7 +139,7 @@ nav.sticky .menu-btn {
 .home {
   height: 100vh;
   width: 100%;
-  background: url("images/back.jpg") no-repeat;
+  background: url("images/background.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -382,7 +382,7 @@ section .button button:hover {
 }
 
 .skills-details .boxes .topic {
-  font-size: 20px;
+  font-size: 25px;
   color: #4070f4;
 }
 
@@ -394,7 +394,7 @@ section .button button:hover {
 
 
 /* My Services CSS */
-.services .boxes {
+/* .services .boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -443,7 +443,7 @@ section .button button:hover {
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p {
   color: #fff;
-}
+} */
 
 
 /* Contact Me CSS */
@@ -554,7 +554,7 @@ section .button button:hover {
   margin-top: 12px;
 }
 
-.right-side .button input[type="button"] {
+.right-side .button input[type="submit"] {
   color: #fff;
   font-size: 18px;
   outline: none;
@@ -566,7 +566,7 @@ section .button button:hover {
   transition: all 0.3s ease;
 }
 
-.button input[type="button"]:hover {
+.button input[type="submit"]:hover {
   background: #5029bc;
 }
 
@@ -810,7 +810,7 @@ footer .text span a:hover {
     font-size: 35px;
   }
 
-  /*.skills .skills-details{
+  .skills .skills-details{
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -827,10 +827,7 @@ footer .text span a:hover {
   .services .boxes .box{
     margin: 20px 0;
     width: 100%;
-  }*/
-  /* .contact .text {
-    width: 100%;
-  } */
+  }
 }
 
 @media(max-width:657px) {
@@ -861,10 +858,10 @@ footer .text span a:hover {
     font-size: 33px;
   }
 
-  /*.skills-details .boxes .per{
+  .skills-details .boxes .per{
     font-size: 50px;
     color: #4070f4;
-  }*/
+  }
 }
 
 @media(max-width:375px) {
