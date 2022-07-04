@@ -227,9 +227,9 @@ nav.sticky .menu-btn {
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
  I'm Selecting Directly 'Section Tag' and 'Class'  */
-section {
+/* section {
   padding-top: 40px;
-}
+} */
 
 section .content {
   width: 80%;
@@ -823,6 +823,7 @@ footer .text span a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin: -48px;
   }
   .services .boxes .box{
     margin: 20px 0;
